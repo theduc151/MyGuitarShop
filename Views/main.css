@@ -1,0 +1,130 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: gray;
+}
+
+#page{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 auto;
+	background: white;
+	border: 2px solid black;
+}
+
+#header{
+	border-bottom: 2px solid black;
+}
+
+#main, #header{
+	padding: 0 20px;
+}
+
+#footer p{
+	margin-left: 20px;
+}
+
+label{
+	width: 5em;
+	padding-right: 1em;
+	float: left;
+	margin-left: 40px;
+	padding-bottom: 5px;
+}
+
+#button input{
+	float: left;
+	width: 8%;
+	margin: .5em 0;
+}
+
+#add_product_form input{
+	margin-bottom: 10px;
+}
+
+select{
+	width: 12.325em;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+form{
+	padding-bottom: 20px;
+}
+
+#main h1, #main h2{
+	color: darkorange;
+}
+
+.right{
+	text-align: right;
+}
+
+.left{
+	text-align: left;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid black;	
+}
+
+th, td{
+	padding: 8px 5em 8px 20px;
+	border: 1px dotted black;
+}
+
+td:nth-last-child(1), th:nth-last-child(1){
+	padding: 0;
+}
+
+td form{
+	padding: 0;
+}
+
+td input{
+	margin: 0 10px;
+}
+
+#cart_footer{
+	text-align: right;
+	border-top: 2px solid black;
+}
+
+#cart_header{
+	border-bottom: 2px solid black;
+}
+
+.cart_qty{
+	width: 2.5em;
+}
+
+#footer{
+	clear: both;
+	text-align: right;
+	border-top: 2px solid black;
+	padding-right: 20px;
+}
+
+#content{
+	float: right;
+	width: 80%;
+}
+
+#sidebar{
+	float: left;
+	margin-right: 1.5em;
+	width: 15%;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+h2{
+	margin-top: 0;
+}
+
+.nav li{
+	padding: 5px 0;
+}
